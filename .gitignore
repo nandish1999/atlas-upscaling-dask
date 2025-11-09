@@ -1,0 +1,15 @@
+# Ignore OS and editor temp
+.DS_Store
+.vscode/
+__pycache__/
+
+# DO NOT UPLOAD ATLAS DATA OR OUTPUT VOLUMES
+*.zarr/
+*.zarr
+*.mhd
+*.raw
+*.tif
+*.tiff
+*.nii
+*.nii.gz
+
